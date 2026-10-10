@@ -1,0 +1,156 @@
+{
+ "schema": 1,
+ "id": "cash-shorthanded",
+ "title": "Cash 3–5 handed adjustments",
+ "disclaimer": "Baseline approximations, not solver output. Replace with your own solver charts via the in-app editor or by editing this file.",
+ "spots": [
+  {
+   "id": "SH5_UTG",
+   "category": "shorthanded",
+   "leaks": [
+    "vpip"
+   ],
+   "hero": "UTG",
+   "tableSize": 5,
+   "stackBB": 100,
+   "title": "5-max · UTG first in",
+   "line": "5-handed, first in from UTG (the 6-max HJ seat). 100bb.",
+   "actions": [
+    "raise",
+    "limp",
+    "fold"
+   ],
+   "decoys": [
+    "limp"
+   ],
+   "ranges": {
+    "raise": "22+, A2s+, K7s+, Q9s+, J9s+, T8s+, 97s+, 87s, 76s, 65s:0.5, ATo+, KJo+, QJo, KTo:0.5"
+   },
+   "note": "With one fewer player behind, UTG plays the 6-max HJ range: add K7s+, T8s+, ATo, KJo."
+  },
+  {
+   "id": "SH4_CO",
+   "category": "shorthanded",
+   "leaks": [
+    "vpip"
+   ],
+   "hero": "CO",
+   "tableSize": 4,
+   "stackBB": 100,
+   "title": "4-max · CO first in",
+   "line": "4-handed, first in from CO (UTG = CO). 100bb.",
+   "actions": [
+    "raise",
+    "limp",
+    "fold"
+   ],
+   "decoys": [
+    "limp"
+   ],
+   "ranges": {
+    "raise": "22+, A2s+, K4s+, Q6s+, J7s+, T7s+, 96s+, 86s+, 75s+, 64s:0.5, 54s, A8o+, A5o:0.5, KTo+, QTo+, JTo, K9o:0.5, T9o:0.5"
+   },
+   "note": "4-handed the first seat is the 6-max CO: ~28% wide, suited kings down to K4s."
+  },
+  {
+   "id": "SH4_BTN",
+   "category": "shorthanded",
+   "leaks": [
+    "vpip",
+    "steal"
+   ],
+   "hero": "BTN",
+   "tableSize": 4,
+   "stackBB": 100,
+   "title": "4-max · BTN first in",
+   "line": "4-handed, first in on the BTN. 100bb.",
+   "actions": [
+    "raise",
+    "limp",
+    "fold"
+   ],
+   "decoys": [
+    "limp"
+   ],
+   "ranges": {
+    "raise": "22+, A2s+, K2s+, Q3s+, J5s+, T6s+, 96s+, 85s+, 74s+, 64s+, 53s+, 43s, A2o+, K8o+, Q9o+, J9o+, T8o+, 98o, 87o:0.5, K7o:0.5, K6o:0.25, Q8o:0.5, 97o:0.25"
+   },
+   "note": "Same BTN range as 6-max; players behind are identical (just the blinds)."
+  },
+  {
+   "id": "SH3_BTN",
+   "category": "shorthanded",
+   "leaks": [
+    "vpip",
+    "steal"
+   ],
+   "hero": "BTN",
+   "tableSize": 3,
+   "stackBB": 100,
+   "title": "3-max · BTN first in",
+   "line": "3-handed, first in on the BTN. 100bb.",
+   "actions": [
+    "raise",
+    "limp",
+    "fold"
+   ],
+   "decoys": [
+    "limp"
+   ],
+   "ranges": {
+    "raise": "22+, A2s+, K2s+, Q2s+, J4s+, T5s+, 95s+, 85s+, 74s+, 63s+, 53s+, 43s, A2o+, K6o+, K5o:0.5, Q8o+, J8o+, T8o+, 97o+, 87o, 76o:0.5"
+   },
+   "note": "3-handed BTN opens ~50%: blinds defend wider so pure trash still folds, but every Kx-suited and Q8o+ is in."
+  },
+  {
+   "id": "SH3_SB",
+   "category": "shorthanded",
+   "leaks": [
+    "vpip",
+    "steal"
+   ],
+   "hero": "SB",
+   "tableSize": 3,
+   "stackBB": 100,
+   "title": "3-max · SB first in",
+   "line": "3-handed, BTN folds, you are SB. 100bb.",
+   "actions": [
+    "raise",
+    "limp",
+    "fold"
+   ],
+   "decoys": [
+    "limp"
+   ],
+   "ranges": {
+    "raise": "22+, A2s+, K2s+, Q4s+, J6s+, T6s+, 96s+, 85s+, 75s+, 64s+, 54s, A2o+, K8o+, Q9o+, J9o+, T9o, K7o:0.5, Q8o:0.5, 98o:0.5, T8o:0.5"
+   },
+   "note": "Blind vs blind is unchanged by table size: raise ~45% for 3x, never limp in this drill."
+  },
+  {
+   "id": "SH3_BBD_vs_BTN",
+   "category": "shorthanded",
+   "leaks": [
+    "vpip",
+    "steal"
+   ],
+   "hero": "BB",
+   "villain": "BTN",
+   "ip": false,
+   "tableSize": 3,
+   "stackBB": 100,
+   "title": "3-max · BB vs BTN open",
+   "line": "3-handed: BTN opens 2.5bb, SB folds. You're BB.",
+   "actions": [
+    "3bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "3bet": "88+, AT+, A5s-A2s, KJs+, KQo, QJs, JTs:0.5, K9s:0.3, 76s:0.3, 65s:0.3",
+    "call": "22+, A2s+, K2s+, Q2s+, J2s+, T4s+, 94s+, 84s+, 73s+, 63s+, 52s+, 42s+, 32s, A2o+, K3o+, Q6o+, J7o+, T7o+, 97o+, 86o+, 76o, 65o"
+   },
+   "note": "3-handed the BTN range is wider still: defend ~70% and fold only true trash."
+  }
+ ]
+}

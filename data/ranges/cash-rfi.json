@@ -1,0 +1,131 @@
+{
+ "schema": 1,
+ "id": "cash-rfi",
+ "title": "Cash 6-max 100bb — Raise first in",
+ "disclaimer": "Baseline approximations, not solver output. Replace with your own solver charts via the in-app editor or by editing this file.",
+ "spots": [
+  {
+   "id": "RFI_UTG",
+   "category": "rfi",
+   "leaks": [
+    "vpip"
+   ],
+   "hero": "UTG",
+   "tableSize": 6,
+   "stackBB": 100,
+   "title": "UTG · folded to you",
+   "line": "Folded to you in the UTG. 100bb. Open 2.5bb or fold?",
+   "actions": [
+    "raise",
+    "limp",
+    "fold"
+   ],
+   "decoys": [
+    "limp"
+   ],
+   "ranges": {
+    "raise": "22+, A2s+, K9s+, Q9s+, J9s+, T9s, 98s, 87s:0.5, 76s:0.5, AJo+, KQo, ATo:0.5, KJo:0.5"
+   },
+   "note": "Five players behind: linear, strong range. Small pairs and suited wheel aces play well; offsuit broadways below KQ/AJ get dominated."
+  },
+  {
+   "id": "RFI_HJ",
+   "category": "rfi",
+   "leaks": [
+    "vpip"
+   ],
+   "hero": "HJ",
+   "tableSize": 6,
+   "stackBB": 100,
+   "title": "HJ · folded to you",
+   "line": "Folded to you in the HJ. 100bb. Open 2.5bb or fold?",
+   "actions": [
+    "raise",
+    "limp",
+    "fold"
+   ],
+   "decoys": [
+    "limp"
+   ],
+   "ranges": {
+    "raise": "22+, A2s+, K7s+, Q9s+, J9s+, T8s+, 97s+, 87s, 76s, 65s:0.5, ATo+, KJo+, QJo, KTo:0.5"
+   },
+   "note": "Four behind: add suited kings/connectors and ATo/KJo. Still no offsuit junk."
+  },
+  {
+   "id": "RFI_CO",
+   "category": "steal",
+   "leaks": [
+    "vpip",
+    "steal"
+   ],
+   "hero": "CO",
+   "tableSize": 6,
+   "stackBB": 100,
+   "title": "CO · folded to you",
+   "line": "Folded to you in the CO. 100bb. Open 2.5bb or fold?",
+   "actions": [
+    "raise",
+    "limp",
+    "fold"
+   ],
+   "decoys": [
+    "limp"
+   ],
+   "ranges": {
+    "raise": "22+, A2s+, K4s+, Q6s+, J7s+, T7s+, 96s+, 86s+, 75s+, 64s:0.5, 54s, A8o+, A5o:0.5, KTo+, QTo+, JTo, K9o:0.5, T9o:0.5"
+   },
+   "note": "Three behind: wide steal. Suited hands down to K4s/Q6s, offsuit broadways, A8o+."
+  },
+  {
+   "id": "RFI_BTN",
+   "category": "steal",
+   "leaks": [
+    "vpip",
+    "steal"
+   ],
+   "hero": "BTN",
+   "tableSize": 6,
+   "stackBB": 100,
+   "title": "BTN · folded to you",
+   "line": "Folded to you in the BTN. 100bb. Open 2.5bb or fold?",
+   "actions": [
+    "raise",
+    "limp",
+    "fold"
+   ],
+   "decoys": [
+    "limp"
+   ],
+   "ranges": {
+    "raise": "22+, A2s+, K2s+, Q3s+, J5s+, T6s+, 96s+, 85s+, 74s+, 64s+, 53s+, 43s, A2o+, K8o+, Q9o+, J9o+, T8o+, 98o, 87o:0.5, K7o:0.5, K6o:0.25, Q8o:0.5, 97o:0.25"
+   },
+   "note": "Only the blinds behind + position all hand: open ~45%. Any suited king, most suited queens, every offsuit ace."
+  },
+  {
+   "id": "RFI_SB",
+   "category": "steal",
+   "leaks": [
+    "vpip",
+    "steal"
+   ],
+   "hero": "SB",
+   "tableSize": 6,
+   "stackBB": 100,
+   "title": "SB · folded to you",
+   "line": "Folded to you in the SB. 100bb. Open 3bb or fold?",
+   "actions": [
+    "raise",
+    "limp",
+    "fold"
+   ],
+   "decoys": [
+    "limp"
+   ],
+   "ranges": {
+    "raise": "22+, A2s+, K2s+, Q4s+, J6s+, T6s+, 96s+, 85s+, 75s+, 64s+, 54s, A2o+, K8o+, Q9o+, J9o+, T9o, K7o:0.5, Q8o:0.5, 98o:0.5, T8o:0.5"
+   },
+   "note": "Raise-or-fold baseline vs BB (3x). Solvers mix limps at low rake, but for your VPIP/PFR leak the drill treats every limp as wrong."
+  }
+ ]
+}
