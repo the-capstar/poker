@@ -1,0 +1,758 @@
+{
+ "schema": 1,
+ "id": "cash-facing-3bet",
+ "title": "Cash 6-max 100bb — Facing a 3-bet",
+ "disclaimer": "Baseline approximations, not solver output. Replace with your own solver charts via the in-app editor or by editing this file.",
+ "spots": [
+  {
+   "id": "F3B_UTG_vs_HJ_small",
+   "category": "facing3bet",
+   "leaks": [
+    "f3b"
+   ],
+   "hero": "UTG",
+   "villain": "HJ",
+   "ip": false,
+   "sizing": "small",
+   "tableSize": 6,
+   "stackBB": 100,
+   "sampleFrom": "RFI_UTG",
+   "title": "UTG open · HJ 3-bets small",
+   "line": "You open 2.5bb from UTG. HJ 3-bets to 7.5bb (3x). You're OUT of position.",
+   "actions": [
+    "4bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "4bet": "KK+, QQ:0.3, AKs:0.7, AKo:0.5, A5s:0.4, A4s:0.3",
+    "call": "QQ-66, 55:0.5, AK, AQs, AJs, ATs, KQs, KJs, QJs:0.8, JTs:0.8, T9s:0.6, 98s:0.3, AQo:0.8, AJo:0.2, KQo:0.3, A5s:0.5, A4s:0.4"
+   }
+  },
+  {
+   "id": "F3B_UTG_vs_HJ_large",
+   "category": "facing3bet",
+   "leaks": [
+    "f3b"
+   ],
+   "hero": "UTG",
+   "villain": "HJ",
+   "ip": false,
+   "sizing": "large",
+   "tableSize": 6,
+   "stackBB": 100,
+   "sampleFrom": "RFI_UTG",
+   "title": "UTG open · HJ 3-bets large",
+   "line": "You open 2.5bb from UTG. HJ 3-bets to 10bb (4x). You're OUT of position.",
+   "actions": [
+    "4bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "4bet": "KK+, QQ:0.4, AKs:0.8, AKo:0.6, A5s:0.4, A4s:0.2",
+    "call": "QQ-77, 66:0.5, AK, AQs, AJs:0.8, ATs:0.4, KQs, KJs:0.4, QJs:0.4, JTs:0.4, T9s:0.2, AQo:0.5, A5s:0.3"
+   }
+  },
+  {
+   "id": "F3B_UTG_vs_CO_small",
+   "category": "facing3bet",
+   "leaks": [
+    "f3b"
+   ],
+   "hero": "UTG",
+   "villain": "CO",
+   "ip": false,
+   "sizing": "small",
+   "tableSize": 6,
+   "stackBB": 100,
+   "sampleFrom": "RFI_UTG",
+   "title": "UTG open · CO 3-bets small",
+   "line": "You open 2.5bb from UTG. CO 3-bets to 7.5bb (3x). You're OUT of position.",
+   "actions": [
+    "4bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "4bet": "KK+, QQ:0.3, AKs:0.7, AKo:0.5, A5s:0.4, A4s:0.3",
+    "call": "QQ-66, 55:0.5, AK, AQs, AJs, ATs, KQs, KJs, QJs:0.8, JTs:0.8, T9s:0.6, 98s:0.3, AQo:0.8, AJo:0.2, KQo:0.3, A5s:0.5, A4s:0.4"
+   }
+  },
+  {
+   "id": "F3B_UTG_vs_CO_large",
+   "category": "facing3bet",
+   "leaks": [
+    "f3b"
+   ],
+   "hero": "UTG",
+   "villain": "CO",
+   "ip": false,
+   "sizing": "large",
+   "tableSize": 6,
+   "stackBB": 100,
+   "sampleFrom": "RFI_UTG",
+   "title": "UTG open · CO 3-bets large",
+   "line": "You open 2.5bb from UTG. CO 3-bets to 10bb (4x). You're OUT of position.",
+   "actions": [
+    "4bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "4bet": "KK+, QQ:0.4, AKs:0.8, AKo:0.6, A5s:0.4, A4s:0.2",
+    "call": "QQ-77, 66:0.5, AK, AQs, AJs:0.8, ATs:0.4, KQs, KJs:0.4, QJs:0.4, JTs:0.4, T9s:0.2, AQo:0.5, A5s:0.3"
+   }
+  },
+  {
+   "id": "F3B_UTG_vs_BTN_small",
+   "category": "facing3bet",
+   "leaks": [
+    "f3b"
+   ],
+   "hero": "UTG",
+   "villain": "BTN",
+   "ip": false,
+   "sizing": "small",
+   "tableSize": 6,
+   "stackBB": 100,
+   "sampleFrom": "RFI_UTG",
+   "title": "UTG open · BTN 3-bets small",
+   "line": "You open 2.5bb from UTG. BTN 3-bets to 7.5bb (3x). You're OUT of position.",
+   "actions": [
+    "4bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "4bet": "KK+, QQ:0.3, AKs:0.7, AKo:0.5, A5s:0.4, A4s:0.3",
+    "call": "QQ-66, 55:0.5, AK, AQs, AJs, ATs, KQs, KJs, QJs:0.8, JTs:0.8, T9s:0.6, 98s:0.3, AQo:0.8, AJo:0.2, KQo:0.3, A5s:0.5, A4s:0.4"
+   }
+  },
+  {
+   "id": "F3B_UTG_vs_BTN_large",
+   "category": "facing3bet",
+   "leaks": [
+    "f3b"
+   ],
+   "hero": "UTG",
+   "villain": "BTN",
+   "ip": false,
+   "sizing": "large",
+   "tableSize": 6,
+   "stackBB": 100,
+   "sampleFrom": "RFI_UTG",
+   "title": "UTG open · BTN 3-bets large",
+   "line": "You open 2.5bb from UTG. BTN 3-bets to 10bb (4x). You're OUT of position.",
+   "actions": [
+    "4bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "4bet": "KK+, QQ:0.4, AKs:0.8, AKo:0.6, A5s:0.4, A4s:0.2",
+    "call": "QQ-77, 66:0.5, AK, AQs, AJs:0.8, ATs:0.4, KQs, KJs:0.4, QJs:0.4, JTs:0.4, T9s:0.2, AQo:0.5, A5s:0.3"
+   }
+  },
+  {
+   "id": "F3B_UTG_vs_SB_small",
+   "category": "facing3bet",
+   "leaks": [
+    "f3b"
+   ],
+   "hero": "UTG",
+   "villain": "SB",
+   "ip": true,
+   "sizing": "small",
+   "tableSize": 6,
+   "stackBB": 100,
+   "sampleFrom": "RFI_UTG",
+   "title": "UTG open · SB 3-bets small",
+   "line": "You open 2.5bb from UTG. SB 3-bets to 10bb (4x). You're IN position.",
+   "actions": [
+    "4bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "4bet": "KK+, QQ:0.25, AKs:0.6, AKo:0.5, A5s:0.4, A4s:0.3",
+    "call": "QQ-44, AK, AQs, AJs, ATs, A9s:0.3, KQs, KJs, KTs:0.5, QJs, QTs:0.4, JTs, T9s, 98s:0.5, 87s:0.3, AQo, AJo:0.4, KQo:0.5, A5s:0.6, A4s:0.4"
+   }
+  },
+  {
+   "id": "F3B_UTG_vs_SB_large",
+   "category": "facing3bet",
+   "leaks": [
+    "f3b"
+   ],
+   "hero": "UTG",
+   "villain": "SB",
+   "ip": true,
+   "sizing": "large",
+   "tableSize": 6,
+   "stackBB": 100,
+   "sampleFrom": "RFI_UTG",
+   "title": "UTG open · SB 3-bets large",
+   "line": "You open 2.5bb from UTG. SB 3-bets to 12.5bb (5x). You're IN position.",
+   "actions": [
+    "4bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "4bet": "KK+, QQ:0.3, AKs:0.7, AKo:0.5, A5s:0.4, A4s:0.3",
+    "call": "QQ-55, AK, AQs, AJs, ATs:0.6, KQs, KJs:0.7, QJs:0.6, JTs:0.6, T9s:0.4, AQo:0.7, A5s:0.4"
+   }
+  },
+  {
+   "id": "F3B_UTG_vs_BB_small",
+   "category": "facing3bet",
+   "leaks": [
+    "f3b"
+   ],
+   "hero": "UTG",
+   "villain": "BB",
+   "ip": true,
+   "sizing": "small",
+   "tableSize": 6,
+   "stackBB": 100,
+   "sampleFrom": "RFI_UTG",
+   "title": "UTG open · BB 3-bets small",
+   "line": "You open 2.5bb from UTG. BB 3-bets to 10bb (4x). You're IN position.",
+   "actions": [
+    "4bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "4bet": "KK+, QQ:0.25, AKs:0.6, AKo:0.5, A5s:0.4, A4s:0.3",
+    "call": "QQ-44, AK, AQs, AJs, ATs, A9s:0.3, KQs, KJs, KTs:0.5, QJs, QTs:0.4, JTs, T9s, 98s:0.5, 87s:0.3, AQo, AJo:0.4, KQo:0.5, A5s:0.6, A4s:0.4"
+   }
+  },
+  {
+   "id": "F3B_UTG_vs_BB_large",
+   "category": "facing3bet",
+   "leaks": [
+    "f3b"
+   ],
+   "hero": "UTG",
+   "villain": "BB",
+   "ip": true,
+   "sizing": "large",
+   "tableSize": 6,
+   "stackBB": 100,
+   "sampleFrom": "RFI_UTG",
+   "title": "UTG open · BB 3-bets large",
+   "line": "You open 2.5bb from UTG. BB 3-bets to 12.5bb (5x). You're IN position.",
+   "actions": [
+    "4bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "4bet": "KK+, QQ:0.3, AKs:0.7, AKo:0.5, A5s:0.4, A4s:0.3",
+    "call": "QQ-55, AK, AQs, AJs, ATs:0.6, KQs, KJs:0.7, QJs:0.6, JTs:0.6, T9s:0.4, AQo:0.7, A5s:0.4"
+   }
+  },
+  {
+   "id": "F3B_HJ_vs_CO_small",
+   "category": "facing3bet",
+   "leaks": [
+    "f3b"
+   ],
+   "hero": "HJ",
+   "villain": "CO",
+   "ip": false,
+   "sizing": "small",
+   "tableSize": 6,
+   "stackBB": 100,
+   "sampleFrom": "RFI_HJ",
+   "title": "HJ open · CO 3-bets small",
+   "line": "You open 2.5bb from HJ. CO 3-bets to 7.5bb (3x). You're OUT of position.",
+   "actions": [
+    "4bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "4bet": "KK+, QQ:0.4, AKs:0.6, AKo:0.6, AQs:0.2, KQs:0.15, A5s:0.5, A4s:0.4",
+    "call": "QQ-44, 33:0.4, AK, AQs, AJs, ATs, A9s:0.5, KQs, KJs, KTs:0.6, QJs, QTs:0.4, JTs, J9s:0.2, T9s:0.8, 98s:0.6, 87s:0.4, 76s:0.3, AQo, AJo:0.5, KQo:0.6, A5s, A4s:0.6, A3s:0.3"
+   }
+  },
+  {
+   "id": "F3B_HJ_vs_CO_large",
+   "category": "facing3bet",
+   "leaks": [
+    "f3b"
+   ],
+   "hero": "HJ",
+   "villain": "CO",
+   "ip": false,
+   "sizing": "large",
+   "tableSize": 6,
+   "stackBB": 100,
+   "sampleFrom": "RFI_HJ",
+   "title": "HJ open · CO 3-bets large",
+   "line": "You open 2.5bb from HJ. CO 3-bets to 10bb (4x). You're OUT of position.",
+   "actions": [
+    "4bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "4bet": "KK+, QQ:0.4, AKs:0.7, AKo:0.6, AQs:0.2, A5s:0.5, A4s:0.3",
+    "call": "QQ-66, 55:0.5, AK, AQs, AJs, ATs:0.7, KQs, KJs:0.7, QJs:0.7, JTs:0.7, T9s:0.5, 98s:0.3, AQo:0.8, AJo:0.2, KQo:0.3, A5s:0.5, A4s:0.3"
+   }
+  },
+  {
+   "id": "F3B_HJ_vs_BTN_small",
+   "category": "facing3bet",
+   "leaks": [
+    "f3b"
+   ],
+   "hero": "HJ",
+   "villain": "BTN",
+   "ip": false,
+   "sizing": "small",
+   "tableSize": 6,
+   "stackBB": 100,
+   "sampleFrom": "RFI_HJ",
+   "title": "HJ open · BTN 3-bets small",
+   "line": "You open 2.5bb from HJ. BTN 3-bets to 7.5bb (3x). You're OUT of position.",
+   "actions": [
+    "4bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "4bet": "KK+, QQ:0.4, AKs:0.6, AKo:0.6, AQs:0.2, KQs:0.15, A5s:0.5, A4s:0.4",
+    "call": "QQ-44, 33:0.4, AK, AQs, AJs, ATs, A9s:0.5, KQs, KJs, KTs:0.6, QJs, QTs:0.4, JTs, J9s:0.2, T9s:0.8, 98s:0.6, 87s:0.4, 76s:0.3, AQo, AJo:0.5, KQo:0.6, A5s, A4s:0.6, A3s:0.3"
+   }
+  },
+  {
+   "id": "F3B_HJ_vs_BTN_large",
+   "category": "facing3bet",
+   "leaks": [
+    "f3b"
+   ],
+   "hero": "HJ",
+   "villain": "BTN",
+   "ip": false,
+   "sizing": "large",
+   "tableSize": 6,
+   "stackBB": 100,
+   "sampleFrom": "RFI_HJ",
+   "title": "HJ open · BTN 3-bets large",
+   "line": "You open 2.5bb from HJ. BTN 3-bets to 10bb (4x). You're OUT of position.",
+   "actions": [
+    "4bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "4bet": "KK+, QQ:0.4, AKs:0.7, AKo:0.6, AQs:0.2, A5s:0.5, A4s:0.3",
+    "call": "QQ-66, 55:0.5, AK, AQs, AJs, ATs:0.7, KQs, KJs:0.7, QJs:0.7, JTs:0.7, T9s:0.5, 98s:0.3, AQo:0.8, AJo:0.2, KQo:0.3, A5s:0.5, A4s:0.3"
+   }
+  },
+  {
+   "id": "F3B_HJ_vs_SB_small",
+   "category": "facing3bet",
+   "leaks": [
+    "f3b"
+   ],
+   "hero": "HJ",
+   "villain": "SB",
+   "ip": true,
+   "sizing": "small",
+   "tableSize": 6,
+   "stackBB": 100,
+   "sampleFrom": "RFI_HJ",
+   "title": "HJ open · SB 3-bets small",
+   "line": "You open 2.5bb from HJ. SB 3-bets to 10bb (4x). You're IN position.",
+   "actions": [
+    "4bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "4bet": "KK+, QQ:0.4, AKs:0.6, AKo:0.6, A5s:0.4, A4s:0.4, A3s:0.2",
+    "call": "QQ-33, AK, AQs, AJs, ATs, A9s:0.6, A8s:0.3, KQs, KJs, KTs, K9s:0.3, QJs, QTs:0.7, JTs, J9s:0.3, T9s, 98s, 87s:0.6, 76s:0.4, AQo, AJo:0.6, KQo:0.7, KJo:0.2, A5s, A4s, A3s:0.4"
+   }
+  },
+  {
+   "id": "F3B_HJ_vs_SB_large",
+   "category": "facing3bet",
+   "leaks": [
+    "f3b"
+   ],
+   "hero": "HJ",
+   "villain": "SB",
+   "ip": true,
+   "sizing": "large",
+   "tableSize": 6,
+   "stackBB": 100,
+   "sampleFrom": "RFI_HJ",
+   "title": "HJ open · SB 3-bets large",
+   "line": "You open 2.5bb from HJ. SB 3-bets to 12.5bb (5x). You're IN position.",
+   "actions": [
+    "4bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "4bet": "KK+, QQ:0.4, AKs:0.7, AKo:0.6, A5s:0.4, A4s:0.3",
+    "call": "QQ-55, AK, AQs, AJs, ATs:0.7, KQs, KJs:0.8, KTs:0.4, QJs:0.8, JTs:0.8, T9s:0.6, 98s:0.3, AQo:0.7, AJo:0.2, KQo:0.3, A5s:0.6, A4s:0.4"
+   }
+  },
+  {
+   "id": "F3B_HJ_vs_BB_small",
+   "category": "facing3bet",
+   "leaks": [
+    "f3b"
+   ],
+   "hero": "HJ",
+   "villain": "BB",
+   "ip": true,
+   "sizing": "small",
+   "tableSize": 6,
+   "stackBB": 100,
+   "sampleFrom": "RFI_HJ",
+   "title": "HJ open · BB 3-bets small",
+   "line": "You open 2.5bb from HJ. BB 3-bets to 10bb (4x). You're IN position.",
+   "actions": [
+    "4bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "4bet": "KK+, QQ:0.4, AKs:0.6, AKo:0.6, A5s:0.4, A4s:0.4, A3s:0.2",
+    "call": "QQ-33, AK, AQs, AJs, ATs, A9s:0.6, A8s:0.3, KQs, KJs, KTs, K9s:0.3, QJs, QTs:0.7, JTs, J9s:0.3, T9s, 98s, 87s:0.6, 76s:0.4, AQo, AJo:0.6, KQo:0.7, KJo:0.2, A5s, A4s, A3s:0.4"
+   }
+  },
+  {
+   "id": "F3B_HJ_vs_BB_large",
+   "category": "facing3bet",
+   "leaks": [
+    "f3b"
+   ],
+   "hero": "HJ",
+   "villain": "BB",
+   "ip": true,
+   "sizing": "large",
+   "tableSize": 6,
+   "stackBB": 100,
+   "sampleFrom": "RFI_HJ",
+   "title": "HJ open · BB 3-bets large",
+   "line": "You open 2.5bb from HJ. BB 3-bets to 12.5bb (5x). You're IN position.",
+   "actions": [
+    "4bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "4bet": "KK+, QQ:0.4, AKs:0.7, AKo:0.6, A5s:0.4, A4s:0.3",
+    "call": "QQ-55, AK, AQs, AJs, ATs:0.7, KQs, KJs:0.8, KTs:0.4, QJs:0.8, JTs:0.8, T9s:0.6, 98s:0.3, AQo:0.7, AJo:0.2, KQo:0.3, A5s:0.6, A4s:0.4"
+   }
+  },
+  {
+   "id": "F3B_CO_vs_BTN_small",
+   "category": "facing3bet",
+   "leaks": [
+    "f3b"
+   ],
+   "hero": "CO",
+   "villain": "BTN",
+   "ip": false,
+   "sizing": "small",
+   "tableSize": 6,
+   "stackBB": 100,
+   "sampleFrom": "RFI_CO",
+   "title": "CO open · BTN 3-bets small",
+   "line": "You open 2.5bb from CO. BTN 3-bets to 7.5bb (3x). You're OUT of position.",
+   "actions": [
+    "4bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "4bet": "QQ+, JJ:0.3, AKs, AKo:0.8, AQs:0.3, KQs:0.2, K9s:0.15, A5s:0.5, A4s:0.5, A3s:0.3, AJo:0.15, 76s:0.1",
+    "call": "JJ-33, 22:0.5, AK, AQ, AJs, ATs, A9s, A8s:0.6, A7s:0.3, KQs, KJs, KTs, K9s:0.6, QJs, QTs:0.8, Q9s:0.3, JTs, J9s:0.5, T9s, T8s:0.3, 98s:0.8, 87s:0.7, 76s:0.6, 65s:0.5, 54s:0.3, AJo:0.8, ATo:0.4, KQo:0.9, KJo:0.4, QJo:0.3, A5s, A4s, A3s:0.6, A2s:0.5"
+   }
+  },
+  {
+   "id": "F3B_CO_vs_BTN_large",
+   "category": "facing3bet",
+   "leaks": [
+    "f3b"
+   ],
+   "hero": "CO",
+   "villain": "BTN",
+   "ip": false,
+   "sizing": "large",
+   "tableSize": 6,
+   "stackBB": 100,
+   "sampleFrom": "RFI_CO",
+   "title": "CO open · BTN 3-bets large",
+   "line": "You open 2.5bb from CO. BTN 3-bets to 10bb (4x). You're OUT of position.",
+   "actions": [
+    "4bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "4bet": "QQ+, JJ:0.3, AKs, AKo:0.8, AQs:0.3, A5s:0.5, A4s:0.4, A3s:0.2",
+    "call": "JJ-44, 33:0.4, AK, AQ, AJs, ATs, A9s:0.5, KQs, KJs, KTs:0.6, QJs, QTs:0.4, JTs, T9s:0.7, 98s:0.5, 87s:0.4, 76s:0.3, AQo, AJo:0.6, KQo:0.6, KJo:0.2, A5s:0.6, A4s:0.5, A3s:0.4"
+   }
+  },
+  {
+   "id": "F3B_CO_vs_SB_small",
+   "category": "facing3bet",
+   "leaks": [
+    "f3b"
+   ],
+   "hero": "CO",
+   "villain": "SB",
+   "ip": true,
+   "sizing": "small",
+   "tableSize": 6,
+   "stackBB": 100,
+   "sampleFrom": "RFI_CO",
+   "title": "CO open · SB 3-bets small",
+   "line": "You open 2.5bb from CO. SB 3-bets to 10bb (4x). You're IN position.",
+   "actions": [
+    "4bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "4bet": "QQ+, JJ:0.3, AKs, AKo:0.8, AQs:0.3, A5s:0.5, A4s:0.4, A3s:0.3, K9s:0.15, 65s:0.1",
+    "call": "JJ-22, AK, AQ, AJs, ATs, A9s, A8s:0.7, A7s:0.4, KQs, KJs, KTs, K9s:0.6, QJs, QTs, Q9s:0.5, JTs, J9s:0.7, T9s, T8s:0.5, 98s, 87s, 76s:0.7, 65s:0.5, 54s:0.3, AJo, ATo:0.4, KQo, KJo:0.5, QJo:0.2, A5s, A4s, A3s:0.6, A2s:0.5"
+   }
+  },
+  {
+   "id": "F3B_CO_vs_SB_large",
+   "category": "facing3bet",
+   "leaks": [
+    "f3b"
+   ],
+   "hero": "CO",
+   "villain": "SB",
+   "ip": true,
+   "sizing": "large",
+   "tableSize": 6,
+   "stackBB": 100,
+   "sampleFrom": "RFI_CO",
+   "title": "CO open · SB 3-bets large",
+   "line": "You open 2.5bb from CO. SB 3-bets to 12.5bb (5x). You're IN position.",
+   "actions": [
+    "4bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "4bet": "QQ+, JJ:0.3, AKs, AKo:0.8, AQs:0.3, A5s:0.5, A4s:0.4, A3s:0.2",
+    "call": "JJ-44, 33:0.3, AK, AQ, AJs, ATs, A9s:0.5, KQs, KJs, KTs:0.6, QJs, QTs:0.5, JTs, J9s:0.3, T9s:0.8, 98s:0.5, 87s:0.3, AJo:0.6, KQo:0.6, KJo:0.1, A5s, A4s:0.7, A3s:0.3"
+   }
+  },
+  {
+   "id": "F3B_CO_vs_BB_small",
+   "category": "facing3bet",
+   "leaks": [
+    "f3b"
+   ],
+   "hero": "CO",
+   "villain": "BB",
+   "ip": true,
+   "sizing": "small",
+   "tableSize": 6,
+   "stackBB": 100,
+   "sampleFrom": "RFI_CO",
+   "title": "CO open · BB 3-bets small",
+   "line": "You open 2.5bb from CO. BB 3-bets to 10bb (4x). You're IN position.",
+   "actions": [
+    "4bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "4bet": "QQ+, JJ:0.3, AKs, AKo:0.8, AQs:0.3, A5s:0.5, A4s:0.4, A3s:0.3, K9s:0.15, 65s:0.1",
+    "call": "JJ-22, AK, AQ, AJs, ATs, A9s, A8s:0.7, A7s:0.4, KQs, KJs, KTs, K9s:0.6, QJs, QTs, Q9s:0.5, JTs, J9s:0.7, T9s, T8s:0.5, 98s, 87s, 76s:0.7, 65s:0.5, 54s:0.3, AJo, ATo:0.4, KQo, KJo:0.5, QJo:0.2, A5s, A4s, A3s:0.6, A2s:0.5"
+   }
+  },
+  {
+   "id": "F3B_CO_vs_BB_large",
+   "category": "facing3bet",
+   "leaks": [
+    "f3b"
+   ],
+   "hero": "CO",
+   "villain": "BB",
+   "ip": true,
+   "sizing": "large",
+   "tableSize": 6,
+   "stackBB": 100,
+   "sampleFrom": "RFI_CO",
+   "title": "CO open · BB 3-bets large",
+   "line": "You open 2.5bb from CO. BB 3-bets to 12.5bb (5x). You're IN position.",
+   "actions": [
+    "4bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "4bet": "QQ+, JJ:0.3, AKs, AKo:0.8, AQs:0.3, A5s:0.5, A4s:0.4, A3s:0.2",
+    "call": "JJ-44, 33:0.3, AK, AQ, AJs, ATs, A9s:0.5, KQs, KJs, KTs:0.6, QJs, QTs:0.5, JTs, J9s:0.3, T9s:0.8, 98s:0.5, 87s:0.3, AJo:0.6, KQo:0.6, KJo:0.1, A5s, A4s:0.7, A3s:0.3"
+   }
+  },
+  {
+   "id": "F3B_BTN_vs_SB_small",
+   "category": "facing3bet",
+   "leaks": [
+    "f3b"
+   ],
+   "hero": "BTN",
+   "villain": "SB",
+   "ip": true,
+   "sizing": "small",
+   "tableSize": 6,
+   "stackBB": 100,
+   "sampleFrom": "RFI_BTN",
+   "title": "BTN open · SB 3-bets small",
+   "line": "You open 2.5bb from BTN. SB 3-bets to 10bb (4x). You're IN position.",
+   "actions": [
+    "4bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "4bet": "QQ+, JJ:0.3, AKs, AKo, AQs:0.3, A5s:0.5, A4s:0.5, A3s:0.3, K9s:0.2, KTs:0.15, Q9s:0.15, AJo:0.15, KJo:0.1, 65s:0.1, 54s:0.1",
+    "call": "JJ-22, AQ, AJ, ATs, A9s, A8s-A6s, KQ, KJs, KTs, K9s, K8s:0.8, K7s:0.4, QJs, QTs, Q9s, Q8s:0.5, JTs, J9s, J8s:0.7, T9s, T8s, T7s:0.3, 98s, 97s:0.8, 87s, 86s:0.6, 76s, 75s:0.4, 65s, 64s:0.3, 54s, 53s:0.3, ATo, A9o:0.5, KJo, KTo:0.6, K9o:0.3, QJo:0.8, QTo:0.4, JTo:0.5, A5s-A2s"
+   }
+  },
+  {
+   "id": "F3B_BTN_vs_SB_large",
+   "category": "facing3bet",
+   "leaks": [
+    "f3b"
+   ],
+   "hero": "BTN",
+   "villain": "SB",
+   "ip": true,
+   "sizing": "large",
+   "tableSize": 6,
+   "stackBB": 100,
+   "sampleFrom": "RFI_BTN",
+   "title": "BTN open · SB 3-bets large",
+   "line": "You open 2.5bb from BTN. SB 3-bets to 12.5bb (5x). You're IN position.",
+   "actions": [
+    "4bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "4bet": "QQ+, JJ:0.3, AKs, AKo, AQs:0.3, A5s:0.5, A4s:0.5, A3s:0.2, K9s:0.15, AJo:0.1",
+    "call": "JJ-33, 22:0.6, AQ, AJs, AJo, ATs, A9s, A8s:0.6, A7s:0.4, KQ, KJs, KTs, K9s:0.8, K8s:0.3, QJs, QTs, Q9s:0.5, JTs, J9s:0.7, T9s, T8s:0.6, 98s, 87s:0.9, 76s:0.8, 65s:0.6, 54s:0.4, ATo:0.5, KJo:0.6, KTo:0.2, QJo:0.4, A5s-A2s"
+   }
+  },
+  {
+   "id": "F3B_BTN_vs_BB_small",
+   "category": "facing3bet",
+   "leaks": [
+    "f3b"
+   ],
+   "hero": "BTN",
+   "villain": "BB",
+   "ip": true,
+   "sizing": "small",
+   "tableSize": 6,
+   "stackBB": 100,
+   "sampleFrom": "RFI_BTN",
+   "title": "BTN open · BB 3-bets small",
+   "line": "You open 2.5bb from BTN. BB 3-bets to 10bb (4x). You're IN position.",
+   "actions": [
+    "4bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "4bet": "QQ+, JJ:0.3, AKs, AKo, AQs:0.3, A5s:0.5, A4s:0.5, A3s:0.3, K9s:0.2, KTs:0.15, Q9s:0.15, AJo:0.15, KJo:0.1, 65s:0.1, 54s:0.1",
+    "call": "JJ-22, AQ, AJ, ATs, A9s, A8s-A6s, KQ, KJs, KTs, K9s, K8s:0.8, K7s:0.4, QJs, QTs, Q9s, Q8s:0.5, JTs, J9s, J8s:0.7, T9s, T8s, T7s:0.3, 98s, 97s:0.8, 87s, 86s:0.6, 76s, 75s:0.4, 65s, 64s:0.3, 54s, 53s:0.3, ATo, A9o:0.5, KJo, KTo:0.6, K9o:0.3, QJo:0.8, QTo:0.4, JTo:0.5, A5s-A2s"
+   }
+  },
+  {
+   "id": "F3B_BTN_vs_BB_large",
+   "category": "facing3bet",
+   "leaks": [
+    "f3b"
+   ],
+   "hero": "BTN",
+   "villain": "BB",
+   "ip": true,
+   "sizing": "large",
+   "tableSize": 6,
+   "stackBB": 100,
+   "sampleFrom": "RFI_BTN",
+   "title": "BTN open · BB 3-bets large",
+   "line": "You open 2.5bb from BTN. BB 3-bets to 12.5bb (5x). You're IN position.",
+   "actions": [
+    "4bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "4bet": "QQ+, JJ:0.3, AKs, AKo, AQs:0.3, A5s:0.5, A4s:0.5, A3s:0.2, K9s:0.15, AJo:0.1",
+    "call": "JJ-33, 22:0.6, AQ, AJs, AJo, ATs, A9s, A8s:0.6, A7s:0.4, KQ, KJs, KTs, K9s:0.8, K8s:0.3, QJs, QTs, Q9s:0.5, JTs, J9s:0.7, T9s, T8s:0.6, 98s, 87s:0.9, 76s:0.8, 65s:0.6, 54s:0.4, ATo:0.5, KJo:0.6, KTo:0.2, QJo:0.4, A5s-A2s"
+   }
+  },
+  {
+   "id": "F3B_SB_vs_BB_small",
+   "category": "facing3bet",
+   "leaks": [
+    "f3b"
+   ],
+   "hero": "SB",
+   "villain": "BB",
+   "ip": false,
+   "sizing": "small",
+   "tableSize": 6,
+   "stackBB": 100,
+   "sampleFrom": "RFI_SB",
+   "title": "SB open · BB 3-bets small",
+   "line": "You open 3bb from SB. BB 3-bets to 9bb (3x). You're OUT of position.",
+   "actions": [
+    "4bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "4bet": "QQ+, JJ:0.4, AK, AQs:0.4, A5s:0.5, A4s:0.4, A3s:0.3, K9s:0.2, Q9s:0.1, AJo:0.2, KJo:0.1",
+    "call": "JJ-22, AQ, AJ, ATs, A9s, A8s-A6s, ATo, A9o:0.5, A8o:0.3, KQ, KJ, KTs, K9s, K8s:0.7, K7s:0.5, K6s:0.3, KTo:0.6, QJs, QTs, Q9s, Q8s:0.4, QJo:0.8, QTo:0.3, JTs, J9s, J8s:0.5, T9s, T8s, 98s, 97s:0.6, 87s, 86s:0.4, 76s, 75s:0.3, 65s, 54s:0.8, A5s-A2s"
+   }
+  },
+  {
+   "id": "F3B_SB_vs_BB_large",
+   "category": "facing3bet",
+   "leaks": [
+    "f3b"
+   ],
+   "hero": "SB",
+   "villain": "BB",
+   "ip": false,
+   "sizing": "large",
+   "tableSize": 6,
+   "stackBB": 100,
+   "sampleFrom": "RFI_SB",
+   "title": "SB open · BB 3-bets large",
+   "line": "You open 3bb from SB. BB 3-bets to 12bb (4x). You're OUT of position.",
+   "actions": [
+    "4bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "4bet": "QQ+, JJ:0.4, AK, AQs:0.4, A5s:0.5, A4s:0.4, A3s:0.2, K9s:0.15",
+    "call": "JJ-33, 22:0.6, AQ, AJs, AJo, ATs, A9s, A8s:0.6, A7s:0.3, KQ, KJs, KTs, K9s:0.6, K8s:0.2, QJs, QTs:0.8, Q9s:0.4, JTs, J9s:0.6, T9s:0.9, T8s:0.4, 98s:0.8, 87s:0.6, 76s:0.5, 65s:0.4, ATo:0.5, KJo:0.6, KTo:0.2, QJo:0.4, A5s-A2s"
+   }
+  }
+ ]
+}

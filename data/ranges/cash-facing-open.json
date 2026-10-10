@@ -1,0 +1,498 @@
+{
+ "schema": 1,
+ "id": "cash-facing-open",
+ "title": "Cash 6-max 100bb — Facing an open (incl. BB defence, squeezes)",
+ "disclaimer": "Baseline approximations, not solver output. Replace with your own solver charts via the in-app editor or by editing this file.",
+ "spots": [
+  {
+   "id": "FO_HJ_vs_UTG",
+   "category": "facingOpen",
+   "leaks": [
+    "vpip"
+   ],
+   "hero": "HJ",
+   "villain": "UTG",
+   "ip": true,
+   "tableSize": 6,
+   "stackBB": 100,
+   "title": "HJ vs UTG open",
+   "line": "UTG opens 2.5bb. You're HJ (in position).",
+   "actions": [
+    "3bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "3bet": "QQ+, AK, JJ:0.5, AQs:0.5, A5s:0.6, A4s:0.4, KQs:0.4, AQo:0.3",
+    "call": "JJ, TT-88, 77:0.5, AQs, AJs:0.7, KQs:0.6"
+   },
+   "note": "In position vs a single open: 3-bet linear-ish with blockers, flat pairs/suited broadways that play well IP, fold dominated offsuit hands."
+  },
+  {
+   "id": "FO_CO_vs_UTG",
+   "category": "facingOpen",
+   "leaks": [
+    "vpip"
+   ],
+   "hero": "CO",
+   "villain": "UTG",
+   "ip": true,
+   "tableSize": 6,
+   "stackBB": 100,
+   "title": "CO vs UTG open",
+   "line": "UTG opens 2.5bb, folds to you. You're CO (in position).",
+   "actions": [
+    "3bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "3bet": "QQ+, AK, JJ:0.6, TT:0.3, AQs:0.6, AJs:0.3, KQs:0.5, A5s:0.7, A4s:0.5, AQo:0.3",
+    "call": "JJ, TT:0.7, 99-77, 66:0.5, AQs, AJs:0.7, ATs:0.5, KQs:0.5, KJs:0.5, QJs:0.5, JTs:0.5"
+   },
+   "note": "In position vs a single open: 3-bet linear-ish with blockers, flat pairs/suited broadways that play well IP, fold dominated offsuit hands."
+  },
+  {
+   "id": "FO_CO_vs_HJ",
+   "category": "facingOpen",
+   "leaks": [
+    "vpip"
+   ],
+   "hero": "CO",
+   "villain": "HJ",
+   "ip": true,
+   "tableSize": 6,
+   "stackBB": 100,
+   "title": "CO vs HJ open",
+   "line": "HJ opens 2.5bb. You're CO (in position).",
+   "actions": [
+    "3bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "3bet": "JJ+, AK, AQs, TT:0.5, AJs:0.5, KQs:0.6, KJs:0.3, QJs:0.2, A5s, A4s, A3s:0.4, AQo:0.6, 76s:0.2, 65s:0.2",
+    "call": "TT, 99-66, AJs, ATs:0.6, KQs, KJs:0.5, QJs:0.5, JTs:0.6, T9s:0.4"
+   },
+   "note": "In position vs a single open: 3-bet linear-ish with blockers, flat pairs/suited broadways that play well IP, fold dominated offsuit hands."
+  },
+  {
+   "id": "FO_BTN_vs_UTG",
+   "category": "facingOpen",
+   "leaks": [
+    "vpip"
+   ],
+   "hero": "BTN",
+   "villain": "UTG",
+   "ip": true,
+   "tableSize": 6,
+   "stackBB": 100,
+   "title": "BTN vs UTG open",
+   "line": "UTG opens 2.5bb, folds to you. You're BTN (in position).",
+   "actions": [
+    "3bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "3bet": "QQ+, AK, JJ:0.5, AQs:0.5, A5s:0.6, A4s:0.4, KQs:0.4, AQo:0.3",
+    "call": "JJ, TT-22, AQs, AJs, ATs, KQs, KJs, KTs, QJs, QTs:0.5, JTs, T9s, 98s, 87s:0.5, 76s:0.5, AQo:0.4, AJo:0.3"
+   },
+   "note": "In position vs a single open: 3-bet linear-ish with blockers, flat pairs/suited broadways that play well IP, fold dominated offsuit hands."
+  },
+  {
+   "id": "FO_BTN_vs_HJ",
+   "category": "facingOpen",
+   "leaks": [
+    "vpip"
+   ],
+   "hero": "BTN",
+   "villain": "HJ",
+   "ip": true,
+   "tableSize": 6,
+   "stackBB": 100,
+   "title": "BTN vs HJ open",
+   "line": "HJ opens 2.5bb, folds to you. You're BTN (in position).",
+   "actions": [
+    "3bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "3bet": "JJ+, AK, AQs, TT:0.5, AJs:0.5, KQs:0.5, KJs:0.3, A5s, A4s, A3s:0.5, AQo:0.6, AJo:0.2, 65s:0.3, 54s:0.3",
+    "call": "TT, 99-22, AJs, ATs, A9s:0.5, KQs, KJs:0.7, KTs, QJs, QTs, JTs, J9s:0.5, T9s, 98s, 87s, 76s:0.5, AQo, AJo:0.4, KQo:0.5"
+   },
+   "note": "In position vs a single open: 3-bet linear-ish with blockers, flat pairs/suited broadways that play well IP, fold dominated offsuit hands."
+  },
+  {
+   "id": "FO_BTN_vs_CO",
+   "category": "facingOpen",
+   "leaks": [
+    "vpip"
+   ],
+   "hero": "BTN",
+   "villain": "CO",
+   "ip": true,
+   "tableSize": 6,
+   "stackBB": 100,
+   "title": "BTN vs CO open",
+   "line": "CO opens 2.5bb. You're BTN (in position).",
+   "actions": [
+    "3bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "3bet": "TT+, AK, AQ, AJs, ATs:0.5, KQs, KJs:0.5, K9s:0.3, QJs:0.4, JTs:0.3, A5s-A2s, AJo:0.5, KQo:0.4, 99:0.3, 76s:0.4, 65s:0.4, 54s:0.3",
+    "call": "99, 88-22, ATs, A9s-A6s:0.5, KJs, KTs, K9s:0.4, QJs, QTs, Q9s:0.5, JTs, J9s, T9s, T8s:0.5, 98s, 87s, 76s:0.6, 65s:0.4, AJo, KQo:0.6, ATo:0.3, KJo:0.3"
+   },
+   "note": "In position vs a single open: 3-bet linear-ish with blockers, flat pairs/suited broadways that play well IP, fold dominated offsuit hands."
+  },
+  {
+   "id": "FO_SB_vs_UTG",
+   "category": "facingOpen",
+   "leaks": [
+    "vpip"
+   ],
+   "hero": "SB",
+   "villain": "UTG",
+   "ip": false,
+   "tableSize": 6,
+   "stackBB": 100,
+   "title": "SB vs UTG open",
+   "line": "UTG opens 2.5bb, folds to you. You're SB (out of position).",
+   "actions": [
+    "3bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "3bet": "TT+, AK, AQs, AJs:0.6, KQs:0.6, A5s:0.7, A4s:0.5, 99:0.5, AQo:0.5",
+    "call": ""
+   },
+   "note": "SB vs an open is 3-bet-or-fold: a flat invites a BB squeeze and leaves you OOP with a capped range."
+  },
+  {
+   "id": "FO_SB_vs_HJ",
+   "category": "facingOpen",
+   "leaks": [
+    "vpip"
+   ],
+   "hero": "SB",
+   "villain": "HJ",
+   "ip": false,
+   "tableSize": 6,
+   "stackBB": 100,
+   "title": "SB vs HJ open",
+   "line": "HJ opens 2.5bb, folds to you. You're SB (out of position).",
+   "actions": [
+    "3bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "3bet": "99+, AK, AQ, AJs, ATs:0.6, KQs, KJs:0.5, QJs:0.4, A5s, A4s, A3s:0.4, 88:0.4, AJo:0.3, KQo:0.3",
+    "call": ""
+   },
+   "note": "SB vs an open is 3-bet-or-fold: a flat invites a BB squeeze and leaves you OOP with a capped range."
+  },
+  {
+   "id": "FO_SB_vs_CO",
+   "category": "stealDefense",
+   "leaks": [
+    "vpip",
+    "steal"
+   ],
+   "hero": "SB",
+   "villain": "CO",
+   "ip": false,
+   "tableSize": 6,
+   "stackBB": 100,
+   "title": "SB vs CO open",
+   "line": "CO opens 2.5bb, folds to you. You're SB (out of position).",
+   "actions": [
+    "3bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "3bet": "88+, 77:0.5, 66:0.3, AK, AQ, AJ, ATs, A9s:0.5, KQs, KJs, KTs:0.6, K9s:0.3, QJs, QTs:0.5, JTs:0.6, T9s:0.4, 98s:0.3, A5s-A2s, KQo, ATo:0.4, KJo:0.4",
+    "call": ""
+   },
+   "note": "SB vs an open is 3-bet-or-fold: a flat invites a BB squeeze and leaves you OOP with a capped range."
+  },
+  {
+   "id": "FO_SB_vs_BTN",
+   "category": "stealDefense",
+   "leaks": [
+    "vpip",
+    "steal"
+   ],
+   "hero": "SB",
+   "villain": "BTN",
+   "ip": false,
+   "tableSize": 6,
+   "stackBB": 100,
+   "title": "SB vs BTN open",
+   "line": "BTN opens 2.5bb. You're SB (out of position).",
+   "actions": [
+    "3bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "3bet": "66+, 55:0.5, 44:0.3, A2s+, K8s+, K7s:0.5, K6s:0.3, Q9s+, J9s+, T8s+, 97s+, 87s, 76s, 65s:0.6, 54s:0.4, ATo+, A9o:0.4, KJo+, KTo:0.5, QJo:0.6, QTo:0.3, JTo:0.4",
+    "call": ""
+   },
+   "note": "SB vs an open is 3-bet-or-fold: a flat invites a BB squeeze and leaves you OOP with a capped range."
+  },
+  {
+   "id": "BBD_BB_vs_UTG",
+   "category": "bbDefense",
+   "leaks": [
+    "vpip"
+   ],
+   "hero": "BB",
+   "villain": "UTG",
+   "ip": false,
+   "tableSize": 6,
+   "stackBB": 100,
+   "title": "BB vs UTG open",
+   "line": "UTG opens 2.5bb, folds to you. You're BB (out of position).",
+   "actions": [
+    "3bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "3bet": "QQ+, AK, JJ:0.4, AQs:0.4, A5s:0.5, A4s:0.4, KQs:0.3",
+    "call": "JJ, TT-22, AQs, AJs-A2s, K9s+, Q9s+, J9s+, T8s+, 97s+, 86s+, 75s+, 64s+, 54s, AQo, AJo:0.7, KQo:0.7, KJo:0.3, QJo:0.3"
+   },
+   "note": "BB closes the action with 1.5bb already in: defend wide, but 3-bet the top and some suited blockers."
+  },
+  {
+   "id": "BBD_BB_vs_HJ",
+   "category": "bbDefense",
+   "leaks": [
+    "vpip"
+   ],
+   "hero": "BB",
+   "villain": "HJ",
+   "ip": false,
+   "tableSize": 6,
+   "stackBB": 100,
+   "title": "BB vs HJ open",
+   "line": "HJ opens 2.5bb, folds to you. You're BB (out of position).",
+   "actions": [
+    "3bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "3bet": "JJ+, AK, AQs, TT:0.4, AJs:0.4, KQs:0.5, A5s:0.6, A4s:0.5, A3s:0.3, AQo:0.4, 76s:0.15, 65s:0.15",
+    "call": "22+, A2s+, K6s+, Q8s+, J8s+, T7s+, 96s+, 85s+, 74s+, 64s+, 53s+, 43s:0.5, ATo+, KTo+, QTo+, JTo, A9o:0.5, T9o:0.5"
+   },
+   "note": "BB closes the action with 1.5bb already in: defend wide, but 3-bet the top and some suited blockers."
+  },
+  {
+   "id": "BBD_BB_vs_CO",
+   "category": "stealDefense",
+   "leaks": [
+    "vpip",
+    "steal"
+   ],
+   "hero": "BB",
+   "villain": "CO",
+   "ip": false,
+   "tableSize": 6,
+   "stackBB": 100,
+   "title": "BB vs CO open",
+   "line": "CO opens 2.5bb, folds to you. You're BB (out of position).",
+   "actions": [
+    "3bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "3bet": "TT+, 99:0.3, AK, AQ, AJs, ATs:0.5, KQs, KJs:0.5, K9s:0.2, QJs:0.3, A5s-A2s:0.6, AJo:0.3, KQo:0.3, 76s:0.3, 65s:0.3, 54s:0.2",
+    "call": "22+, A2s+, K2s+, Q5s+, J6s+, T6s+, 95s+, 85s+, 74s+, 63s+, 53s+, 43s, A7o+, A5o:0.5, K9o+, Q9o+, J9o+, T8o+, 98o, 87o:0.5"
+   },
+   "note": "BB closes the action with 1.5bb already in: defend wide, but 3-bet the top and some suited blockers."
+  },
+  {
+   "id": "BBD_BB_vs_BTN",
+   "category": "stealDefense",
+   "leaks": [
+    "vpip",
+    "steal"
+   ],
+   "hero": "BB",
+   "villain": "BTN",
+   "ip": false,
+   "tableSize": 6,
+   "stackBB": 100,
+   "title": "BB vs BTN open",
+   "line": "BTN opens 2.5bb, folds to you. You're BB (out of position).",
+   "actions": [
+    "3bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "3bet": "99+, 88:0.4, AK, AQ, AJ, ATs, A9s:0.4, KQs, KJs, KTs:0.5, K9s:0.3, QJs:0.6, QTs:0.3, Q9s:0.2, JTs:0.4, J9s:0.2, T9s:0.3, A5s-A2s:0.6, KQo:0.5, ATo:0.3, 76s:0.3, 65s:0.3, 54s:0.3",
+    "call": "22+, A2s+, K2s+, Q2s+, J3s+, T5s+, 95s+, 84s+, 74s+, 63s+, 52s+, 42s+, 32s, A2o+, K5o+, K4o:0.5, Q8o+, Q7o:0.5, J8o+, T8o+, 97o+, 87o, 86o:0.5, 76o, 65o:0.5"
+   },
+   "note": "BB closes the action with 1.5bb already in: defend wide, but 3-bet the top and some suited blockers."
+  },
+  {
+   "id": "BBD_BB_vs_SB",
+   "category": "stealDefense",
+   "leaks": [
+    "vpip",
+    "steal"
+   ],
+   "hero": "BB",
+   "villain": "SB",
+   "ip": true,
+   "tableSize": 6,
+   "stackBB": 100,
+   "title": "BB vs SB open",
+   "line": "SB opens 3bb. You're BB (in position).",
+   "actions": [
+    "3bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "3bet": "88+, 77:0.4, A9s+, A5s-A2s, KTs+, K9s:0.5, K5s:0.3, QTs+, Q8s:0.2, JTs, J8s:0.2, T9s:0.5, 98s:0.3, 87s:0.3, A9o+, KJo+, QJo:0.5",
+    "call": "22+, A2s+, K2s+, Q2s+, J4s+, T6s+, 96s+, 85s+, 74s+, 63s+, 53s+, 43s, A2o+, K7o+, K6o:0.5, K5o:0.5, Q8o+, J8o+, T8o+, 98o, 87o, 76o:0.5"
+   },
+   "note": "BB closes the action with 2bb already in: defend wide, but 3-bet the top and some suited blockers."
+  },
+  {
+   "id": "SQ_SB_CO_BTN",
+   "category": "squeeze",
+   "leaks": [
+    "vpip"
+   ],
+   "hero": "SB",
+   "villain": "CO",
+   "caller": "BTN",
+   "ip": false,
+   "tableSize": 6,
+   "stackBB": 100,
+   "title": "SB vs CO open + BTN call",
+   "line": "CO opens 2.5bb, BTN calls. You're SB. Squeeze, call, or fold?",
+   "actions": [
+    "3bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "3bet": "TT+, 99:0.4, AK, AQs, AJs:0.5, KQs:0.5, A5s, A4s:0.6, AQo:0.5",
+    "call": ""
+   },
+   "note": "The caller is capped (no QQ+/AK most of the time), so squeezes get lots of folds — but over-calling OOP multiway with weak hands burns money."
+  },
+  {
+   "id": "SQ_BB_CO_BTN",
+   "category": "squeeze",
+   "leaks": [
+    "vpip"
+   ],
+   "hero": "BB",
+   "villain": "CO",
+   "caller": "BTN",
+   "ip": false,
+   "tableSize": 6,
+   "stackBB": 100,
+   "title": "BB vs CO open + BTN call",
+   "line": "CO opens 2.5bb, BTN calls. You're BB. Squeeze, call, or fold?",
+   "actions": [
+    "3bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "3bet": "JJ+, TT:0.4, AK, AQs, AJs:0.4, KQs:0.4, A5s:0.6, A4s:0.4, AQo:0.3, 76s:0.2, 65s:0.2",
+    "call": "TT, 99-22, A2s+, K8s+, Q9s+, J9s+, T8s+, 97s+, 86s+, 75s+, 64s+, 54s, AQo, AJo, ATo:0.4, KQo, KJo:0.5, QJo:0.3"
+   },
+   "note": "The caller is capped (no QQ+/AK most of the time), so squeezes get lots of folds — but over-calling OOP multiway with weak hands burns money."
+  },
+  {
+   "id": "SQ_BTN_HJ_CO",
+   "category": "squeeze",
+   "leaks": [
+    "vpip"
+   ],
+   "hero": "BTN",
+   "villain": "HJ",
+   "caller": "CO",
+   "ip": true,
+   "tableSize": 6,
+   "stackBB": 100,
+   "title": "BTN vs HJ open + CO call",
+   "line": "HJ opens 2.5bb, CO calls. You're BTN. Squeeze, call, or fold?",
+   "actions": [
+    "3bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "3bet": "QQ+, JJ:0.5, AK, AQs:0.5, KQs:0.3, A5s:0.6, A4s:0.4",
+    "call": "JJ, TT-22, AQs, AJs, ATs, KQs, KJs, QJs, JTs, T9s, 98s, 87s, 76s:0.5, AQo:0.4"
+   },
+   "note": "The caller is capped (no QQ+/AK most of the time), so squeezes get lots of folds — but over-calling OOP multiway with weak hands burns money."
+  },
+  {
+   "id": "SQ_SB_UTG_BTN",
+   "category": "squeeze",
+   "leaks": [
+    "vpip"
+   ],
+   "hero": "SB",
+   "villain": "UTG",
+   "caller": "BTN",
+   "ip": false,
+   "tableSize": 6,
+   "stackBB": 100,
+   "title": "SB vs UTG open + BTN call",
+   "line": "UTG opens 2.5bb, BTN calls. You're SB. Squeeze, call, or fold?",
+   "actions": [
+    "3bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "3bet": "QQ+, JJ:0.4, AK, AQs:0.4, A5s:0.4",
+    "call": ""
+   },
+   "note": "The caller is capped (no QQ+/AK most of the time), so squeezes get lots of folds — but over-calling OOP multiway with weak hands burns money."
+  },
+  {
+   "id": "SQ_BB_BTN_SB",
+   "category": "squeeze",
+   "leaks": [
+    "vpip"
+   ],
+   "hero": "BB",
+   "villain": "BTN",
+   "caller": "SB",
+   "ip": false,
+   "tableSize": 6,
+   "stackBB": 100,
+   "title": "BB vs BTN open + SB call",
+   "line": "BTN opens 2.5bb, SB calls. You're BB. Squeeze, call, or fold?",
+   "actions": [
+    "3bet",
+    "call",
+    "fold"
+   ],
+   "ranges": {
+    "3bet": "TT+, 99:0.3, AK, AQ, AJs, ATs:0.5, KQs, KJs:0.4, A5s-A3s:0.5, 65s:0.2",
+    "call": "99, 88-22, A2s+, K2s+, Q5s+, J7s+, T7s+, 96s+, 85s+, 75s+, 64s+, 54s, 43s:0.5, AJo, ATo, A9o:0.5, KTo+, QJo, QTo:0.5, JTo"
+   },
+   "note": "The caller is capped (no QQ+/AK most of the time), so squeezes get lots of folds — but over-calling OOP multiway with weak hands burns money."
+  }
+ ]
+}

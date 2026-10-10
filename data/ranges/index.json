@@ -1,0 +1,9 @@
+{
+ "files": [
+  "cash-rfi.json",
+  "cash-facing-open.json",
+  "cash-facing-3bet.json",
+  "cash-shorthanded.json",
+  "mtt-pushfold.json"
+ ]
+}
